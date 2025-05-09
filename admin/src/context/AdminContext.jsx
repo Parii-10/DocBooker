@@ -10,8 +10,7 @@ const AdminContextProvider = (props) => {
   const [appointments, setAppointments] = useState([])
   const [dashData, setDashData] = useState(false)
 
-  const backendUrl = "https://docbooker-backend-1mbp.onrender.com"
-
+  const backendUrl = import.meta.env.VITE_BACKEND_URL
   const getAllDoctors = async () => {
     try {
       
