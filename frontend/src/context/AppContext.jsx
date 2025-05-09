@@ -7,7 +7,7 @@ export const AppContext = createContext();
 const AppContextProvider = (props) => {
 
   const currencySymbol = ' ₹ ' ; 
-  const backendUrl =  "https://docbooker-backend-1mbp.onrender.com"
+  const backendUrl =  import.meta.env.VITE_BACKEND_URL
 
   const [doctors, setDoctors] = useState([])
   const [token, setToken] = useState(localStorage.getItem('token')? localStorage.getItem('token') : false)
