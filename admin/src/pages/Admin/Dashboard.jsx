@@ -3,7 +3,7 @@ import { useContext } from 'react'
 import { useEffect } from 'react'
 import { assets } from '../../assets/assets'
 import { AppContext } from '../../context/AppContext'
-import { AdminContext } from '../../context/Admincontext'
+import { AdminContext } from '../../context/AdminContext'
 
 const Dashboard = () => {
 
