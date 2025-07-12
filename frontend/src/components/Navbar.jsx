@@ -37,7 +37,7 @@ const Navbar = () => {
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
 
-        <a href="http://localhost:5174" className='border px-2.5 py-0.5 rounded-full border-gray-500 text-gray-600' target="_blank" rel="noopener noreferrer">
+        <a href="https://docbooker-admin.onrender.com" className='border px-2.5 py-0.5 rounded-full border-gray-500 text-gray-600' target="_blank" rel="noopener noreferrer">
           ADMIN PANNEL
         </a>
       </ul>
